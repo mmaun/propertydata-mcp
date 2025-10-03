@@ -1,6 +1,6 @@
-# PropertyData MCP Server
+# Property Insights
 
-A Model Context Protocol (MCP) server that provides seamless access to the PropertyData UK property market API through Claude Desktop and other MCP clients.
+Get instant property and market intelligence directly inside Claude. Property Insights helps you quickly check local rents, compare property values, generate area reports, and share market data with clients — all in plain English. Perfect for estate agents, landlords, and small businesses who want to save time and make smarter decisions.
 
 [![npm version](https://badge.fury.io/js/%40yourname%2Fpropertydata-mcp.svg)](https://www.npmjs.com/package/@yourname/propertydata-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
