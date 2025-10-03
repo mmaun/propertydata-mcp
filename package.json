@@ -1,0 +1,66 @@
+{
+    "name": "@biznezstack/propertydata-mcp",
+    "version": "1.0.0",
+    "description": "MCP server for PropertyData UK property market API - Access 60+ endpoints for property valuations, market analysis, demographics, and area intelligence through Claude Desktop",
+    "type": "module",
+    "main": "./build/index.js",
+    "bin": {
+      "propertydata-mcp": "./build/index.js"
+    },
+    "files": [
+      "build",
+      "README.md",
+      "LICENSE"
+    ],
+    "scripts": {
+      "build": "tsc && chmod +x build/index.js",
+      "prepare": "npm run build",
+      "watch": "tsc --watch",
+      "test": "node build/index.js",
+      "clean": "rm -rf build",
+      "prepublishOnly": "npm run clean && npm run build"
+    },
+    "keywords": [
+      "mcp",
+      "model-context-protocol",
+      "propertydata",
+      "uk-property",
+      "real-estate",
+      "property-data",
+      "property-valuation",
+      "property-analytics",
+      "uk-real-estate",
+      "claude",
+      "anthropic",
+      "property-market",
+      "rental-yields",
+      "property-prices",
+      "demographics",
+      "area-analysis"
+    ],
+    "author": "BiznezStack <hello@biznezstack.com>",
+    "license": "MIT",
+    "dependencies": {
+      "@modelcontextprotocol/sdk": "^0.5.0",
+      "node-fetch": "^3.3.2"
+    },
+    "devDependencies": {
+      "@types/node": "^20.10.0",
+      "typescript": "^5.3.0"
+    },
+    "engines": {
+      "node": ">=18.0.0",
+      "npm": ">=9.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/biznezstack/propertydata-mcp.git"
+    },
+    "bugs": {
+      "url": "https://github.com/biznezstack/propertydata-mcp/issues"
+    },
+    "homepage": "https://github.com/biznezstack/propertydata-mcp/blob/main/README.md",
+    "publishConfig": {
+      "access": "public"
+    }
+  }
