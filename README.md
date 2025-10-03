@@ -52,7 +52,7 @@ No installation needed! Just configure Claude Desktop:
          "command": "npx",
          "args": [
            "-y",
-           "@yourname/propertydata-mcp"
+           "@biznezstack/propertydata-mcp@1.0.0"
          ],
          "env": {
            "PROPERTYDATA_API_KEY": "your-api-key-here"
